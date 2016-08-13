@@ -1,6 +1,7 @@
 #ifndef ALL_H
 #	define ALL_H
 
+#include <string.h>
 #include <getopt.h>
 #include <errno.h>
 #include <error.h>
