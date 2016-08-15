@@ -1,7 +1,7 @@
 #include "all.h"
 
 #define PROGRAM_NAME "hostname"
-/* according to man page, POSIX.1 guarantees that "Host names (not
+/* According to man page, POSIX.1 guarantees that "Host names (not
  * including the terminating null byte) are limited to HOST_NAME_MAX
  * bytes". On Linux, HOST_NAME_MAX is defined with the value 64. */
 #define HOST_NAME_MAX 65
